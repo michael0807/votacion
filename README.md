@@ -2,9 +2,13 @@ pragma solidity ^0.4.11;
 
 /// @title Votación con voto delegado
 contract Ballot {
+
     // Declara un nuevo tipo de dato complejo, que será
+    
     // usado para almacenar variables.
+    
     // Representará a un único votante.
+    
     struct Voter {
         uint weight; // el peso del voto se acumula mediante la delegación de votos
         bool voted;  // true si esa persona ya ha votado
